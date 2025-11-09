@@ -9,6 +9,22 @@ git add add.cpp
 git commit -m "adding add.cpp"
 git log
 
+
+________________Prominent yesterday's tut____________
+
+git clone https://github.com/anahatdeshmukh/gitvcs.git
+ls
+cd gitvcs
+ls
+git status
+git status
+git status
+git add .
+git status
+git commit -m "Add python file"
+git log
+git push
+
 _____________________________________________
 
 
