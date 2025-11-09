@@ -1,0 +1,105 @@
+Here you go — Option A: Using only Git, step-by-step, in exact order.
+Copy–paste each block into VS Code terminal.
+
+⸻
+
+✅ 1. Open Terminal in VS Code
+
+Terminal → New Terminal
+
+⸻
+
+✅ 2. Configure your Git identity (first time only)
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+
+⸻
+
+✅ 3. Initialize Git inside your project folder
+
+git init
+
+
+⸻
+
+✅ 4. Add all project files to staging
+
+git add .
+
+
+⸻
+
+✅ 5. Commit the files
+
+git commit -m "Initial commit"
+
+
+⸻
+
+✅ 6. (Recommended) Add a .gitignore (Node/React/Angular example)
+
+Run only if you need a gitignore. If you already have one, skip this.
+
+curl -L https://www.toptal.com/developers/gitignore/api/node,angular > .gitignore
+git add .gitignore
+git commit -m "Add .gitignore"
+
+
+⸻
+
+✅ 7. Create an empty repo on GitHub manually
+
+Go to -> https://github.com/new
+Do not add README / .gitignore / license there.
+
+⸻
+
+✅ 8. Add GitHub remote (replace USER and REPO)
+
+For HTTPS:
+
+git remote add origin https://github.com/USER/REPO.git
+
+(If using SSH keys instead, use this — but only if you have SSH setup)
+
+# optional alternative
+git remote add origin git@github.com:USER/REPO.git
+
+
+⸻
+
+✅ 9. Rename branch to main
+
+git branch -M main
+
+
+⸻
+
+✅ 10. Push code to GitHub
+
+git push -u origin main
+
+
+⸻
+
+📌 Future changes (every time you change code)
+
+git add .
+git commit -m "Describe your changes"
+git push
+
+
+⸻
+
+Done ✅
+Your complete codebase is now in GitHub.
+
+⸻
+
+If you want, tell me:
+	•	your GitHub username
+	•	repo name
+
+and I’ll replace USER/REPO with your values so you can copy-paste without changing anything.
