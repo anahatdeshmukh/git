@@ -103,3 +103,16 @@ If you want, tell me:
 	•	repo name
 
 and I’ll replace USER/REPO with your values so you can copy-paste without changing anything.
+
+________________________________________________________________________________________________________________________
+
+Git commands practice 
+git config --global user.name ""
+git config --global user.email ""
+mhdir smapleRepo
+cd sampleRepo
+git init
+touch add.cpp
+git add add.cpp
+git commit -m "adding add.cpp"
+git log
